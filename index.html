@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Project</title>
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body
+    <div class="container">
+
+<!--Title-->
+
+        <header class="row">
+            <div class="col-md-6">
+                <img class="img-responsive" src="images/logo.jpg" alt="Logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-super text-thin">John Fox</h1>
+                <h4>Front End Developer</h4>
+            </div>
+        </header>
+            <hr>
+
+<!--Banner-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="images/banner.jpg"/>
+                    <img class="img-responsive" src="images/banner.jpg" alt="Banner">
+                </picture>
+            </div>
+        </div>
+
+<!--Content-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <section class="row text-center">
+            <article class="col-md-4">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="images/one.jpg"/>
+                    <img class="img-responsive" src="images/one.jpg" alt="Image One" data-toggle="modal" data-target="#modalOne">
+                </picture>
+                <h3 class="text-uppercase">Online Portfolio</h3>
+                <p>Project Link</p>
+            </article>
+            <article class="col-md-4">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="images/two.jpg">
+                    <img class="img-responsive" src="images/two.jpg" alt="Image Two" data-toggle="modal" data-target="#modalTwo">
+                </picture>
+                <h3 class="text-uppercase">Interactive Resume</h3>
+                <p>Project Link</p>
+            </article>
+            <article class="col-md-4">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="images/three.jpg"/>
+                    <img class="img-responsive" src="images/three.jpg" alt="Image Three" data-toggle="modal" data-target="#modalThree">
+                </picture>
+                <h3 class="text-uppercase">Classic Arcade Game</h3>
+                <p>Project Link</p>
+            </article>
+        </section>
+        <section class="row text-center">
+            <article class="col-md-4">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="images/four.jpg"/>
+                    <img class="img-responsive" src="images/four.jpg" alt="Image Four" data-toggle="modal" data-target="#modalFour">
+                </picture>
+                <h3 class="text-uppercase">Website Optimization</h3>
+                <p>Project Link</p>
+            </article>
+            <article class="col-md-4">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="images/five.jpg"/>
+                    <img class="img-responsive" src="images/five.jpg" alt="Image Five" data-toggle="modal" data-target="#modalFive">
+                </picture>
+                <h3 class="text-uppercase">Neighborhood Map</h3>
+                <p>Project Link</p>
+            </article>
+            <article class="col-md-4">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="images/six.jpg"/>
+                    <img class="img-responsive" src="images/six.jpg" alt="Image Six" data-toggle="modal" data-target="#modalSix">
+                </picture>
+                <h3 class="text-uppercase">Feed Reader Test</h3>
+                <p>Project Link</p>
+            </article>
+        </section>
+    </div>
+
+    <!-- Modals -->
+
+    <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1">Online Portfolio</h4>
+                </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/one.jpg" alt="Image One">
+                Developed a responsive website using HTML, CSS and Bootstrap.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Interactive Resume</h4>
+                </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/two.jpg" alt="Image Two">
+                Developed an interactive resume using JavaScript and jQuery.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalThree" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Classic Arcade Game</h4>
+                </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/three.jpg" alt="Image Three">
+                Recreated the classic arcade game Frogger by adding entities to a game loop engine.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFour" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel4">Website Optimization</h4>
+                </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/four.jpg" alt="Image Four">
+                Optimized a website to achieve 60 frames per second performance.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalFive" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+           <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Neighborhood Map</h4>
+                </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/five.jpg" alt="Image Five">
+                Developed an interactive application featuring a neighborhood map implementing third party API's.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalSix" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Feed Reader Test</h4>
+                </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/six.jpg" alt="Image Six">
+                Completed a test suite for a web-based application.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script ="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script ="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
